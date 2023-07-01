@@ -21,17 +21,19 @@ body {
   list-style: none;
 }
 /* Header 1 Navigation */
+
 .logo-link {
   text-decoration: none;
   letter-spacing: 0.54px;
   line-height: 21px;
-  display: flex;
   font-size: 18px;
   font-family: "Raleway", sans-serif;
 }
+
 .logo {
   color: var(--accent-color);
 }
+
 .studio {
   color: #2e2f42;
 }
@@ -81,6 +83,7 @@ body {
   color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
 }
+
 .button {
   font-family: inherit;
   border-color: transparent;
@@ -127,15 +130,18 @@ body {
 
 .bg-hero {
   background-color: var(--background-black);
+  width: 1440px;
+  height: 600px;
+  text-align: center;
 }
+
 .hero-title {
   color: var(--primary-white-color);
   font-weight: 900;
   text-align: center;
-  /* Header 1 */
   font-size: 44px;
-  line-height: 1.36;
   letter-spacing: 0.06em;
+  padding: 188px 472px 0px 472px;
 }
 
 .benefits .title {
@@ -144,7 +150,6 @@ body {
   font-size: 14px;
   line-height: 1.14;
 }
-
 .benefits .description {
   line-height: 1.71;
 }
