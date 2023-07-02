@@ -15,6 +15,38 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
+  /* Added */
+  max-width: 1440px;
+}
+
+/* added */
+.container-main {
+  width: 1158px;
+  padding: 0 156px;
+}
+
+.container-header {
+  display: flex;
+  padding-top: 24px;
+}
+
+.container-webstudio,
+.container-nav-menu,
+.container-contacts {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 24px 0px;
+}
+
+.container-nav-menu {
+  padding-left: 76px;
+  gap: 40px;
+}
+.container-contacts {
+  display: inline-flex;
+  padding-left: 400px;
+  gap: 40px;
 }
 
 .list {
@@ -33,6 +65,8 @@ body {
 .logo {
   color: var(--accent-color);
 }
+
+/* added */
 
 .studio {
   color: #2e2f42;
@@ -119,15 +153,22 @@ body {
   color: var(--primary-white-color);
 }
 
+.section {
+  padding: 120px 0;
+}
+
+/* added padding-top */
 .section-title {
   text-align: center;
   /* Header 2 */
   font-size: 36px;
   font-weight: 700;
   line-height: 1.17;
+  letter-spacing: 0.72px;
   color: var(--primary-black-color);
+  margin-bottom: 70px;
 }
-
+/* Added text-align center */
 .bg-hero {
   background-color: var(--background-black);
   width: 1440px;
@@ -143,30 +184,81 @@ body {
   letter-spacing: 0.06em;
   padding: 188px 472px 0px 472px;
 }
+/* Added */
+.container .benefits {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
 
 .benefits .title {
   color: var(--primary-black-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-}
-.benefits .description {
-  line-height: 1.71;
+  letter-spacing: 0.4px;
 }
 
+.benefits .description {
+  line-height: 1.71;
+  font-size: 16px;
+  letter-spacing: 0.32px;
+}
+
+/* added */
+.benefits {
+  gap: 24px;
+  display: flex;
+  align-items: center;
+}
 .bg-team {
   background-color: var(--background-grey);
 }
 
-.team .name,
+/* Added */
+.container .section-title {
+  text-align: center;
+}
+
+.container .what-we-do {
+  display: flex;
+  text-align: center;
+  gap: 24px;
+}
+
 .team .position {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  letter-spacing: 0.32px;
 }
+
+/* modified */
 .team .name {
   color: var(--primary-black-color);
+  text-align: center;
   font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  gap: 32px;
+}
+
+/* added */
+.container .team {
+  display: flex;
+  gap: 24px;
+}
+
+/* added */
+.team-item {
+  width: 264px;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 0px 32px 0px;
+  gap: 32px;
+  border-radius: 0px 0px 4px 4px;
+  background: var(--white, #fff);
 }
 
 /* Project */
