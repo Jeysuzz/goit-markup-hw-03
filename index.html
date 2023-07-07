@@ -10,52 +10,52 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
   </head>
 
   <body>
     <!-- Header Section -->
-    <header>
-      <div class="container-main">
-        <div class="container-header">
-          <nav class="links">
-            <div class="container-links">
-              <!-- Company Logo -->
-              <a href="./index.html" class="logo-link container-webstudio">
-                <span class="logo">WEB<span class="studio">STUDIO</span></span>
-              </a>
+    <header class="page-header">
+      <div class="container menu">
+        <nav class="navigation">
+          <!-- Company Logo -->
+          <a href="./index.html" class="logo link">
+            <span class="logo">WEB<span class="studio">STUDIO</span></span>
+          </a>
 
-              <!-- Navigation Menu -->
-              <ul class="nav-menu list container-nav-menu">
-                <li>
-                  <a
-                    href="./index.html"
-                    class="page current"
-                    rel="nopener norefer"
-                    >Studio</a
-                  >
-                </li>
-                <li>
-                  <a href="./portfolio.html" class="page" rel="nopener norefer"
-                    >Portfolio</a
-                  >
-                </li>
-                <li>
-                  <a href="#" class="page">Contacts</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-          <ul class="contacts-menu list container-contacts">
-            <li>
-              <a href="mailto:info@devstudio.com" class="item"
-                >info@devstudio.com</a
+          <!-- Navigation Menu -->
+          <ul class="nav-menu list">
+            <li class="item">
+              <a
+                href="./index.html"
+                class="page current link"
+                rel="nopener norefer"
+                >Studio</a
               >
             </li>
-            <li>
-              <a href="tel:+110001111111" class="item">+110001111111</a>
+            <li class="item">
+              <a href="./portfolio.html" class="page link" rel="nopener norefer"
+                >Portfolio</a
+              >
+            </li>
+            <li class="item">
+              <a href="#" class="page link">Contacts</a>
             </li>
           </ul>
-        </div>
+        </nav>
+        <ul class="contacts-menu list">
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="contact link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="item">
+            <a href="tel:+110001111111" class="contact link">+110001111111</a>
+          </li>
+        </ul>
       </div>
     </header>
 
@@ -64,19 +64,21 @@
       <!-- Section 1 -->
 
       <section class="hero bg-hero">
-        <h1 class="hero-title">
-          Effective Solutions <br />
-          for Your Business
-        </h1>
-        <button type="button" class="button primary">Order Service</button>
+        <div class="container">
+          <h1 class="hero-title">
+            Effective Solutions <br />
+            for Your Business
+          </h1>
+          <button type="button" class="button primary">Order Service</button>
+        </div>
       </section>
 
       <!-- Section 2 -->
       <section class="section">
         <!-- Company Goals -->
-        <div class="container container-main">
+        <div class="container">
           <ul class="benefits list">
-            <li>
+            <li class="item">
               <h3 class="title"><b>Strategy</b></h3>
               <p class="description">
                 Our goal is to identify the business <br />
@@ -85,7 +87,7 @@
               </p>
             </li>
 
-            <li>
+            <li class="item">
               <h3 class="title"><b>Punctuality</b></h3>
               <p class="description">
                 Bring the key message to the<br />
@@ -94,7 +96,7 @@
               </p>
             </li>
 
-            <li>
+            <li class="item">
               <h3 class="title"><b>Diligence</b></h3>
               <p class="description">
                 Research and confirm brands that<br />
@@ -103,7 +105,7 @@
               </p>
             </li>
 
-            <li>
+            <li class="item">
               <h3 class="title"><b>Technologies</b></h3>
               <p class="description">
                 Design practice focused on digital<br />
@@ -116,33 +118,33 @@
       </section>
 
       <!-- Section 3 -->
-      <section class="section">
-        <div class="container container-main">
+      <section class="section no-top-padding">
+        <div class="container">
           <!-- Business Offers -->
           <h2 class="section-title">What Are We Doing</h2>
           <ul class="what-we-do list">
-            <li>
+            <li class="item">
               <img
                 src="./images/monitor.jpg"
                 alt="monitor"
                 width="360"
-                height="360"
+                height="294"
               />
             </li>
-            <li>
+            <li class="item">
               <img
                 src="./images/phone.jpg"
                 alt="phone"
                 width="360"
-                height="360"
+                height="294"
               />
             </li>
-            <li>
+            <li class="item">
               <img
                 src="./images/laptop-phone.jpg"
                 alt="laptop and phone"
                 width="360"
-                height="360"
+                height="294"
               />
             </li>
           </ul>
@@ -151,47 +153,47 @@
 
       <!-- Section 4 -->
       <section class="section bg-team">
-        <div class="container container-main">
+        <div class="container">
           <h2 class="section-title">Our Team</h2>
           <ul class="team list">
-            <li class="team-item">
+            <li class="item">
               <img
                 src="./images/mark-guerrero.jpg"
                 alt="markguerrero"
-                width="264"
+                width="270"
                 height="260"
               />
               <h3 class="name">Mark Guerrero</h3>
               <p class="position">Product Designer</p>
             </li>
 
-            <li class="team-item">
+            <li class="item">
               <img
                 src="./images/tom-ford.jpg"
                 alt="tomford"
-                width="264"
+                width="270"
                 height="260"
               />
               <h3 class="name">Tom Ford</h3>
               <p class="position">Frontend Developer</p>
             </li>
 
-            <li class="team-item">
+            <li class="item">
               <img
                 src="./images/camila-garcia.jpg"
                 alt="camilagarcia"
-                width="264"
+                width="270"
                 height="260"
               />
               <h3 class="name">Camila Garcia</h3>
               <p class="position">Marketing</p>
             </li>
 
-            <li class="team-item">
+            <li class="item">
               <img
                 src="./images/daniel-wilson.jpg"
                 alt="danielwilson"
-                width="264"
+                width="270"
                 height="260"
               />
               <h3 class="name">Daniel Wilson</h3>
@@ -203,8 +205,8 @@
     </main>
 
     <footer class="page-footer bg-footer">
-      <div class="container-main">
-        <a href="./index.html" class="logo-link container-webstudio">
+      <div class="container">
+        <a href="./index.html" class="logo footer link">
           <span class="logo">WEB<span class="studio-footer">STUDIO</span></span>
         </a>
         <p class="footer-description">
