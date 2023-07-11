@@ -89,8 +89,8 @@ img {
 .logo {
   color: var(--accent-color);
   font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
+  font-weight: 800;
+  font-size: 18px;
   line-height: 1.2;
 }
 /* Checked */
@@ -266,6 +266,7 @@ img {
   color: var(--primary-black-color);
   margin-bottom: 10px;
   font-weight: 500;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   line-height: 1.14;
 }
